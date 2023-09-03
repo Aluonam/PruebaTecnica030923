@@ -21,7 +21,7 @@ const ListaPokemon = () => {
         return(
             <tr>
                 <td>{elementoActual.name}</td>
-                <td><BotonDetalles></BotonDetalles></td>
+                <td><BotonDetalles elementoActual={elementoActual}></BotonDetalles></td>
                 
             </tr>
             
